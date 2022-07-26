@@ -1,0 +1,150 @@
+# verify whitelist: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+# List: white
+https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+https://raw.githubusercontent.com/magicdude4eva/PiHoleCloudFlareD/master/etc/pihole/whitelist.txt
+
+file://custom/white/fbook.txt
+file://custom/white/xboxlive.txt
+file://custom/white/others.txt
+
+# List: black
+
+# ##
+# default pi list
+# ##
+
+# Group: default
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+# ##
+# SAFE LIST form https://firebog.net/
+# ##
+
+# Group: suspicious
+https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+https://v.firebog.net/hosts/static/w3kbl.txt
+
+# Group: ad
+https://adaway.org/hosts.txt
+https://v.firebog.net/hosts/AdguardDNS.txt
+https://v.firebog.net/hosts/Admiral.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://v.firebog.net/hosts/Easylist.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+## add sites
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+
+# Blocklist project: https://github.com/blocklistproject/Lists
+https://blocklistproject.github.io/Lists/ads.txt
+
+# big list!
+# Developer dan: https://www.github.developerdan.com/hosts/
+# https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+
+# Group: tracking
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://v.firebog.net/hosts/Prigent-Ads.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
+https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
+## add sites
+https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt
+https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+# https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+
+# Blocklist project: https://github.com/blocklistproject/Lists
+https://blocklistproject.github.io/Lists/tracking.txt
+
+# NoTracking block list: https://github.com/notracking/hosts-blocklists
+https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
+https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analytics.txt
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/adservers-and-trackers.txt
+
+# Group: malicious
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+https://v.firebog.net/hosts/Prigent-Crypto.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
+https://phishing.army/download/phishing_army_blocklist_extended.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+https://raw.githubusercontent.com/Te-k/stalkerware-indicators/master/generated/hosts
+https://urlhaus.abuse.ch/downloads/hostfile/
+
+## add sites
+https://v.firebog.net/hosts/Prigent-Malware.txt
+https://v.firebog.net/hosts/Shalla-mal.txt
+
+# Blocklist project: https://github.com/blocklistproject/Lists
+https://blocklistproject.github.io/Lists/abuse.txt
+https://blocklistproject.github.io/Lists/phishing.txt
+https://blocklistproject.github.io/Lists/scam.txt
+https://blocklistproject.github.io/Lists/ransomware.txt
+https://blocklistproject.github.io/Lists/malware.txt
+https://blocklistproject.github.io/Lists/fraud.txt
+https://blocklistproject.github.io/Lists/crypto.txt
+
+# Malware list: https://cert.pl/en/posts/2020/03/malicious_domains/
+https://hole.cert.pl/domains/domains.txt
+
+https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt
+https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware
+https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/.dev-tools/_strip_domains/domains.txt
+
+https://raw.githubusercontent.com/austinheap/sophos-xg-block-lists/master/nocoin.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt
+https://gitlab.com/Kurobeats/phishing_hosts/raw/master/hosts 
+
+# Group: others
+https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+
+# Blocklist project: https://github.com/blocklistproject/Lists
+https://blocklistproject.github.io/Lists/smart-tv.txt
+https://blocklistproject.github.io/Lists/vaping.txt
+
+# List site: https://github.com/kowith337/PersonalFilterListCollection/tree/master/hosts
+# https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_facebook0.txt
+https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_google_hotword.txt
+# https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_leftover.txt
+https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_leftover.txt
+
+https://raw.githubusercontent.com/Ridley-nelson17/Pi-hole-Custom-Blockers/main/NSA-default-trackers
+https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
+https://someonewhocares.org/hosts/zero/hosts
+
+# Group: porn
+# Blocklist project: https://github.com/blocklistproject/Lists
+https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
+https://blocklistproject.github.io/Lists/porn.txt
+https://v.firebog.net/hosts/Prigent-Adult.txt
+
+https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/block.txt
+
+# snapchat
+# Group: snapchat
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
+https://raw.githubusercontent.com/d43m0nhLInt3r/socialblocklists/master/Snapchat/snapchatblocklist.txt
+
+# Group: tiktok
+# regex on https://github.com/llacb47/mischosts/blob/master/social/tiktok-regex.list
+https://raw.githubusercontent.com/llacb47/mischosts/master/tiktok-hosts
+https://raw.githubusercontent.com/llacb47/mischosts/master/social/tiktok-block
+https://raw.githubusercontent.com/superover/TikTok-Blocklist/master/tiktok.txt
+
+# facebook
+# Group: facebook
+# https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt
+
+# Group: AMP
+https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt

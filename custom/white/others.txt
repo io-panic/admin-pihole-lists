@@ -1,0 +1,16 @@
+continuum.dds.microsoft.com
+www.msn.com	
+code.jquery.com
+aws.amazon.com
+
+# Link Shortners (Openphish, Hostsfile.org)
+www.bit.ly
+bit.ly
+ow.ly
+j.mp
+goo.gl
+
+# Microsoft Connectivity Checker (Mahakala)
+msftncsi.com
+www.msftncsi.com
+
